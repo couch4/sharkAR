@@ -28,6 +28,7 @@ const Scene: FC = () => {
   },[mainRef])
 
   const startAudio = () => {
+    // @ts-ignore
     let context = new (window.AudioContext || window.webkitAudioContext)()
     context.resume()
     webAudioTouchUnlock(context)

@@ -4,7 +4,6 @@ import { useGLTF } from '@react-three/drei'
 import { AnimationMixer, Clock, TextureLoader } from 'three'
 import bodyTex from '../assets/textures/sharkTexture.jpg'
 import mouthTex from '../assets/textures/sharkTexture.jpg'
-import { Scene } from '@babylonjs/core'
 
 interface ModelProps {
   isLoaded: () => void
